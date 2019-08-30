@@ -63,6 +63,7 @@ namespace InstagramApiSharp.Converters
                 UsertagsCount = SourceObject.User.UsertagsCount,
                 IsFavorite = SourceObject.User.IsFavorite,
                 HasChaining = SourceObject.User.HasChaining,
+                MutualFollowers  = SourceObject.User.MulualFollowersCount,
                 ProfileContext = SourceObject.User.ProfileContext,
                 ProfileContextMutualFollowIds = SourceObject.User.ProfileContextMutualFollowIds,
                 IsBusiness = SourceObject.User.IsBusiness,

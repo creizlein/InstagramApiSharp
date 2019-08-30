@@ -92,6 +92,8 @@ namespace InstagramApiSharp.Classes.Models
 
         public int AccountType { get; set; }
 
+        public int MutualFollowers { get; set; }
+
         public string ProfileContext { get; set; }
 
         public List<long> ProfileContextMutualFollowIds { get; set; }

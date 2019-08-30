@@ -94,6 +94,8 @@ namespace InstagramApiSharp.Classes.ResponseWrappers
 
         [JsonProperty("has_chaining")] public bool HasChaining { get; set; }
 
+        [JsonProperty("mutual_followers_count")] public int MulualFollowersCount { get; set; }
+
         [JsonProperty("profile_context")] public string ProfileContext { get; set; }
 
         [JsonProperty("profile_context_mutual_follow_ids")] public List<long> ProfileContextMutualFollowIds { get; set; }
