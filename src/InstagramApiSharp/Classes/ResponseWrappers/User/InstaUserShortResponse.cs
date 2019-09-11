@@ -16,7 +16,8 @@ namespace InstagramApiSharp.Classes.ResponseWrappers
         [JsonProperty("is_verified")] public bool IsVerified { get; set; }
 
         [JsonProperty("is_private")] public bool IsPrivate { get; set; }
-
+        
+        // TODO: RecentActivitiy inline_follow user_info returns id instead of pk, but unsure the others do.
         [JsonProperty("pk")] public long Pk { get; set; }
     }
 }

@@ -9,6 +9,8 @@ namespace InstagramApiSharp.Classes.ResponseWrappers
 
         [JsonProperty("profile_image")] public string ProfileImage { get; set; }
 
+        [JsonProperty("profile_name")] public string ProfileName { get; set; }
+
         [JsonProperty("timestamp")] public string TimeStamp { get; set; }
 
         [JsonProperty("inline_follow")] public InstaInlineFollowResponse InlineFollow { get; set; }

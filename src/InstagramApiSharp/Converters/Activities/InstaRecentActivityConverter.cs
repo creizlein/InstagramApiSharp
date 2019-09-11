@@ -20,6 +20,8 @@ namespace InstagramApiSharp.Converters
                 ProfileImage = SourceObject.Args.ProfileImage,
                 Text = SourceObject.Args.Text,
                 RichText = SourceObject.Args.RichText,
+                ProfileName=SourceObject.Args.ProfileName,
+                StoryType=SourceObject.StoryType,
                 TimeStamp = DateTimeHelper.UnixTimestampToDateTime((long)System.Convert.ToDouble(SourceObject.Args.TimeStamp, new NumberFormatInfo { NumberDecimalSeparator = "." }))
             };
             if (SourceObject.Args.Links != null)
